@@ -1,0 +1,92 @@
+@media (min-width: 900px) {
+    nav {
+      display: $mian-display;
+      flex-flow: $mian-flex-flow;
+      justify-content: $main-justify-content;
+    
+    ul {
+      padding: 0.5rem 1rem;
+      margin-top: 3.5rem;
+    }
+      .logo {
+      flex-basis: 10%;
+      padding-top: 2rem;
+    }  
+  }
+      .main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      display: $mian-display;
+      flex-flow: $mian-flex-flow;
+      justify-content: $main-justify-content;
+    }
+    article {
+      flex-basis: 73%;
+    }
+    figure {
+      margin: 3rem 0 0 0;
+      flex-basis: 25%;
+  
+      img {
+      border-top-left-radius: $corners;
+      border-top-right-radius: $corners;
+    }
+  }
+      figcaption {
+      padding: 0.5rem;
+    }
+    .button {
+      display: inline-block;
+      border-radius: $corners;
+      padding: 0.5rem 1rem;
+      margin: 0;
+    }
+    
+    .contacttext {
+      flex-basis: 50%;
+    }
+    
+    .menu {
+      margin: 3rem 3rem 0 0;
+      flex-basis: 40%;
+    }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 2fr);
+      grid-template-rows: repeat(2, 2fr);
+      gap: 2rem;
+    }
+    
+    .espressoimg {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    
+    .espressotexts {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+    
+    .beansimg {
+      grid-column: 3/4;
+      grid-row: 1/2;
+    }
+    
+    .beanstexts {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    
+    .pouringimg {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+    
+    .pouringtexts {
+      grid-column: 3/4;
+      grid-row: 2/3;
+    }
+    
+    }
