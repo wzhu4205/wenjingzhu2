@@ -1,0 +1,104 @@
+body {
+    background-image: url("https://assets.codepen.io/10181653/paper-texture.jpg?format=auto");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.navbar {
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border-bottom: 2px solid black;
+  }
+  
+  .navbar .Avatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar .logo {
+    width: 250px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-right: 100px;
+  }
+  
+  .navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+    color: #4C413E;
+  }
+
+  .main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  figure {
+    margin: 10rem 0 0 0;
+    flex-basis: 40%;
+  }
+
+  img {
+    width: 800px;
+  }
+  .Hi {
+    margin-top: 150px;
+    width: 250px;
+  }
+
+  article {
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 450px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 150%;
+    flex-basis: 30%;
+  }
+
+.buttonmywork {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    background-color: #4C413E;
+    padding: 0.5rem 1rem;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 3px solid #4C413E;
+    display: inline-block;
+    font-size: medium;
+  }
+
+  .buttonaboutme {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    padding: 0.5rem 1rem;
+    color: #4C413E;
+    text-decoration: none;
+    border: 3px solid #4C413E;
+    display: inline-block;
+    font-size: medium;
+  } 
